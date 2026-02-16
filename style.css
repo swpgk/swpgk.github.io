@@ -5,8 +5,7 @@ html {
 
 h1 {
     font-size: 1rem;
-    color: navy;
-    margin-left: 1em;
+    color: navy;  
 }
 
 p, li {
@@ -15,14 +14,12 @@ p, li {
 }
 
 .container {
-    display: flex
+    display: flex;
 }
 
 body {
     max-width: 80ch;
-    
-    padding: 1em;
-    
+    padding: 0.5em;
     background: #dafac5;
 }
 
