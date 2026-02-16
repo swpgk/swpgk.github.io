@@ -6,15 +6,12 @@ html {
 h1 {
     font-size: 18px;
     color: navy;
-    margin-left: 1em;
+    margin-left: 0em;
 }
 
 p, li {
     letter-spacing: 1px;
     font-size: 12px;
-    background-color: aquamarine;
-    border: 1px solid darkgreen;
-    padding: 1em 4em 1em 4em;  
 }
 
 .container {
@@ -26,7 +23,7 @@ body {
     width: 47%;
     padding: 2em 8em 7em 8em;
     border: 2px solid black;
-    background: white;
+    background: aquamarine
 }
 
 img {
@@ -47,5 +44,6 @@ a:hover {
     padding: 0em 1em 0em;
     margin: 2.5em auto;
     min-width: 10em;
+    
 }
 	    
