@@ -1,28 +1,33 @@
 html {
     font-family: sans-serif;
-    background: midnightblue;
+    background: white;
 }
 
 h1 {
     font-size: 1.3rem;
-    color: aquamarine;
+    color: crimson;
+    padding-bottom: 0.5em;
+    margin: 0em;
 }
 
 p, li {
     letter-spacing: 1px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .container {
     display: flex;
+    
+    
+    
 }
 
 body {
     max-width: 80ch;
-    color: honeydew;
-    background: darkslateblue;
-    padding: 1em;
-    border: 1px solid black;
+    color: black;
+    
+    padding: 0em;
+    
 }
 
 img {
@@ -32,7 +37,7 @@ img {
 }
 
 a {
-  color: yellow;
+  color: deeppink;
 }
 
 a:hover {
@@ -40,12 +45,13 @@ a:hover {
 }
 
 .item {
+   
     
-    
-}
-	    
-@media screen and (width >= 4rem) {
+}	    
+
+@media (20em <= width <= 40em) {
   .container {
-    margin: 0em;
+    margin: 0em;    
+    
   }
 }
