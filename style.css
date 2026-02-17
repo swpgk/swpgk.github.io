@@ -1,11 +1,11 @@
 html {
     font-family: sans-serif;
-    background: #dafac5;
+    background: midnightblue;
 }
 
 h1 {
-    font-size: 1rem;
-    color: navy;  
+    font-size: 1.3rem;
+    color: aquamarine;
 }
 
 p, li {
@@ -19,8 +19,10 @@ p, li {
 
 body {
     max-width: 80ch;
-    
-    
+    color: white;
+    background: darkslateblue;
+    padding: 0.5em;
+    border: 1px solid black;
 }
 
 img {
@@ -30,7 +32,7 @@ img {
 }
 
 a {
-  color: purple;
+  color: yellow;
 }
 
 a:hover {
