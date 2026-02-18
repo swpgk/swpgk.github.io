@@ -1,11 +1,11 @@
 html {
     font-family: "Verdana", sans-serif;
-    background: midnightblue;
+    background: #04092e;
 }
 
 h1 {
     font-size: 1.5rem;
-    color: lime;
+    color: #faa264;
     padding-bottom: 0.5em;
     margin: 0em;
 }
@@ -16,16 +16,13 @@ p, li {
 }
 
 .container {
-    display: flex;
-    
-    
-    
+    display: flex;   
+    max-width: 80ch;
 }
 
 body {
-    max-width: 80ch;
-    color: honeydew;
     
+    color: honeydew;
     padding: 0em;
     
 }
